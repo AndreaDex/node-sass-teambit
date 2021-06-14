@@ -1,4 +1,6 @@
 /* Reset */
+@import "variables";
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,4 +14,8 @@ body {
 .container {
   width: 70%;
   margin: auto;
+}
+
+.pink_section {
+  background-color: $section_bgcolor;
 }
