@@ -43,6 +43,14 @@ body {
   margin-right: 5px;
 }
 
+.jumbotron {
+  background-color: #ffe7d2;
+}
+.jumbotron .jumbo_top .jumbo_text {
+  width: 50%;
+}
+
 /* Rules Modules */
-/* Style Modules */
-/* header */
+/* * * Style Modules * * */
+/* * header * */
+/* Jumbo */
