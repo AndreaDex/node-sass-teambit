@@ -43,11 +43,20 @@ body {
   margin-right: 5px;
 }
 
-.jumbotron {
-  background-color: #ffe7d2;
+.jumbotron .jumbo_top {
+  display: flex;
+  padding: 30px 0;
 }
-.jumbotron .jumbo_top .jumbo_text {
+.jumbotron .jumbo_top .jumbo_txt {
   width: 50%;
+}
+.jumbotron .jumbo_top .jumbo_img {
+  width: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.jumbotron .jumbo_top .jumbo_img img {
+  width: 100%;
 }
 
 /* Rules Modules */
