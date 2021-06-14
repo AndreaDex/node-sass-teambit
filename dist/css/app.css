@@ -1,1 +1,48 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+#site_header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid black;
+}
+#site_header nav ul {
+  display: inline-block;
+  list-style: none;
+}
+#site_header nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+#site_header nav button {
+  display: inline-flex;
+  background-color: #fff;
+  color: #3c63a9;
+  border: 1px solid #3c63a9;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+#site_header nav button img {
+  height: 15px;
+  margin-right: 5px;
+}
+
+/* Rules Modules */
+/* Style Modules */
+/* header */
