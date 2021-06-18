@@ -6,5 +6,8 @@
 /* * * Style Modules * * */
 /* * header * */
 @use 'partials/header';
+// MAIN
 /* Jumbo */
 @use 'partials/jumbotron';
+// traditional section
+@use 'partials/traditional';

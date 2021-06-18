@@ -1,2 +1,30 @@
 #traditional {
+  h2 {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 50px 0;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .col_3 {
+    text-align: center;
+    img {
+      height: 100px;
+      margin-bottom: 20px;
+    }
+    span {
+      display: block;
+      font-size: 14px;
+    }
+  }
+  .col_12 {
+    text-align: center;
+    padding: 50px 0;
+    img {
+      width: 300px;
+    }
+  }
 }
