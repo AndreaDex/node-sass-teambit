@@ -130,6 +130,9 @@ p {
 #traditional .col_12 img {
   width: 300px;
 }
+#traditional hr {
+  margin: 40px 0;
+}
 
 /* Rules Modules */
 /* * * Style Modules * * */
